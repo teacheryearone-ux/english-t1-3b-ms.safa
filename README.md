@@ -1,1 +1,117 @@
-# english-t1-3b-ms.safa
+[English.Stage.3.Unit.2B.Unit.3.html](https://github.com/user-attachments/files/35270524/English.Stage.3.Unit.2B.Unit.3.html)
+# english-t1-3b-ms.safa<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>English Stage 3 – Unit 2B & Unit 3</title>
+<style>
+:root{--bg:#f6f4ff;--cd:#fff;--tx:#1d1b2e;--mu:#68657f;--pr:#6c47ff;--ok:#12a150;--no:#e5484d;--bd:#ddd8f3;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light dark}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14121f;--cd:#1f1c30;--tx:#f1eefc;--mu:#a5a2bd;--pr:#9b82ff;--bd:#35314d}}
+:root[data-theme="dark"]{--bg:#14121f;--cd:#1f1c30;--tx:#f1eefc;--mu:#a5a2bd;--pr:#9b82ff;--bd:#35314d}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:17px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding:0 14px 96px}
+main{max-width:640px;margin:0 auto}h1{font-size:1.4rem;margin:14px 0 2px}h2{font-size:1.15rem;margin:12px 0}.mu{color:var(--mu);font-size:.9rem}
+.c,details{background:var(--cd);border:1px solid var(--bd);border-radius:14px;padding:12px 14px;margin:10px 0}summary{font-weight:700;cursor:pointer}details ul{padding-left:20px;margin:8px 0 0}
+button{font:inherit;color:inherit;background:var(--cd);border:2px solid var(--bd);border-radius:12px;padding:12px;cursor:pointer;min-height:48px}
+.op,.big{display:block;width:100%;text-align:left;margin:8px 0}.big{text-align:center;font-weight:700}.pr{background:var(--pr);color:#fff;border-color:var(--pr);display:block;width:100%;margin:10px 0;font-weight:700}
+.ok{background:rgba(18,161,80,.18)!important;border-color:var(--ok)!important}.no{background:rgba(229,72,77,.18)!important;border-color:var(--no)!important;animation:sk .3s}
+@keyframes sk{25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+.bar{height:8px;background:var(--bd);border-radius:9px;overflow:hidden}.bar i{display:block;height:100%;background:var(--pr);transition:width .3s}
+.fb{padding:10px 12px;border-radius:12px;margin:10px 0}.g{background:rgba(18,161,80,.15)}.b{background:rgba(229,72,77,.15)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}.grid button{text-align:center;font-size:.95rem}.ps{white-space:pre-line;border-left:4px solid var(--pr)}
+nav{position:fixed;left:0;right:0;bottom:0;display:flex;background:var(--cd);border-top:1px solid var(--bd);padding-bottom:env(safe-area-inset-bottom,0px)}
+nav button{flex:1;border:0;border-radius:0;font-size:.8rem;padding:8px 2px}nav button.on{color:var(--pr);font-weight:700}nav span{display:block;font-size:1.3rem}
+label{display:block;padding:6px 0}.pill{display:inline-block;background:var(--pr);color:#fff;border-radius:99px;padding:2px 10px;font-size:.8rem}
+</style></head><body><main><h1>📚 English Stage 3</h1><div class="mu">Unit 2B Having Fun With Friends · Unit 3 Stories from the Past</div><div id="app"></div></main>
+<nav id="nv"></nav>
+<script>
+const $=s=>document.querySelector(s),A=$("#app"),sh=a=>[...a].sort(()=>Math.random()-.5);
+const T={r:"2B Recipes",p:"2B Pronouns",l:"3A Legends & sentences",s:"3A Sounds & openings",w:"3B Poems & dialogue"};
+const D=[
+["r","Which heading shows the food you need for a recipe?","Ingredients",["Instructions","Title","Utensils"],"“What You Will Need” is another way to say Ingredients."],
+["r","Why are recipe instructions numbered?","So you follow the steps in the right order",["To make the recipe longer","Because it is a poem","So the food tastes sweeter"],"Each number tells you what to do next."],
+["r","Which is a DRY ingredient?","Flour",["Milk","Oil","Eggs"],"Dry ingredients have no liquid: flour, sugar, baking powder."],
+["r","Which is a WET ingredient?","Milk",["Sugar","Flour","Baking powder"],"Wet ingredients contain liquid: milk, eggs, oil."],
+["r","Which word tells you how much of an ingredient to use?","Measurement",["Utensil","Batter","Topping"],"Cups, teaspoons and tablespoons are measurements."],
+["r","An oven’s “setting” tells you the…","temperature (how hot it is)",["time you started","price","colour"],"You choose the right setting so food cooks properly."],
+["r","What happens if you do not mix the cream while it freezes?","Big ice crystals make it grainy",["It turns into butter","It gets sweeter","It melts faster"],"Mixing keeps the ice crystals small and the ice cream smooth."],
+["r","What does “non-dairy” mean?","No milk or milk products",["No sugar","Very cold","Made at home"],"Some people can’t have milk, so they make a non-dairy version."],
+["r","How do you know the pancake pan is ready?","Water drops dance in the pan",["The pan turns red","The butter disappears","It starts to smoke"],"Test the pan with a few drops of water."],
+["p","A pronoun is a word that…","stands in place of a noun",["describes a noun","is an action word","joins two sentences"],"Example: “The girl” becomes “she”."],
+["p","The children are making ice cream. ___ are having fun.","They",["He","It","We"],"“The children” is more than one person, so use They."],
+["p","I made the pancakes by ___.","myself",["yourself","themselves","itself"],"The doer is “I”, so the reflexive pronoun is myself."],
+["p","The children made the ice cream ___.","themselves",["himself","itself","myself"],"“They” goes with themselves."],
+["p","The cat cleaned ___.","itself",["themselves","yourself","ourselves"],"Use itself for animals and things."],
+["l","What makes a legend different from an ordinary story?","It is often about a real person who did something amazing long ago",["It always has talking animals","It is always a poem","It has no problem"],"Legends are stories from the past about amazing people."],
+["l","Fables usually…","teach a moral or lesson",["explain how to cook","list facts","have no characters"],"Fables often have animal characters and a lesson."],
+["l","Which is a QUESTION?","What will you use to help you fly?",["Fly eagles! Fly high!","The thieves ran off.","Oh no! I have crashed!"],"A question asks something and ends with a question mark."],
+["l","“Fly eagles! Fly high!” is a…","command",["statement","question","exclamation"],"Commands tell someone to do something."],
+["l","“Oh no! I have crashed in the desert!” is an…","exclamation",["command","question","statement"],"Exclamations show strong feeling."],
+["l","Why did the astronomers doubt the chief’s plan?","They did not believe humans can fly",["They were afraid of eagles","They wanted to go with him","They were asleep"],"They thought it would not work."],
+["l","How long was Chief Abu Hakim in the desert?","Three days",["One day","One week","One hour"],"The text says “On the third day …”."],
+["l","Who led the horsemen to rescue the chief?","Nawas",["His wife","The astronomers","The thieves"],"Nawas was his right-hand man."],
+["l","Which part of the legend is least likely to be true?","Eagles lifting a man into the sky",["A chief lived long ago","Thieves lived in the desert","He went home"],"Legends mix truth and exaggeration."],
+["s","Which word rhymes with “head”?","bed",["meal","seal","peel"],"head and bed share the same vowel sound. “ea” can sound different in meal."],
+["s","Which word rhymes with “meal”?","peel",["head","bed","said"],"meal and peel have the long “ee” sound."],
+["s","Which word rhymes with “love”?","dove",["move","code","low"],"love/dove rhyme. Move and code have different sounds."],
+["s","Which word rhymes with “good”?","would",["mood","fold","dead"],"Different spelling, same sound!"],
+["s","Which word rhymes with “now”?","how",["low","go","so"],"now/how rhyme. Low/go rhyme with each other."],
+["s","“Early in the morning,” is a sentence opening about…","time",["place","manner","a person"],"Opening phrases can tell us time, place or how."],
+["s","“Up high in the sky,” tells us…","place",["time","feelings only","a person"],"It says where."],
+["s","What follows a sentence opening?","a comma",["a full stop","a question mark","a colon"],"Sentence openings are always followed by a comma."],
+["w","Prose is written in…","full sentences with longer lines",["short rhyming lines only","only facts","pictures only"],"Poetry uses shorter lines and rhythm."],
+["w","Which statement is TRUE?","Poems use rhythm and short lines",["All poems rhyme","Poems are written in paragraphs","Poems never describe things"],"Not all poems rhyme."],
+["w","“Literature” means…","a special group of texts seen as art, like prose, drama and poetry",["only school books","only recipes","only newspapers"],"Literature includes prose, drama and poetry."],
+["w","What does “roam” mean?","travel far and for long",["sleep","cook","shout"],"The context words flew and free help you work it out."],
+["w","I go for a run, ___ I also go for a swim.","and",["but","or","if"],"Use and to add a similar idea, but for a different idea."],
+["w","I like sweets, ___ I know they are bad for me.","but",["and","or","so"],"But joins two different ideas."],
+["w","Which punctuation shows a speaker’s exact words?","quotation marks",["commas only","brackets","capital letters"],"Direct speech goes inside quotation (speech) marks."],
+["w","Which sentence is written correctly?","Zahra asked, “What is your favourite book?”",["Zahra said “What is your favourite book”","Zahra asked what is “your favourite book”","“Zahra asked, What is your favourite book?”"],"Use asked for a question, with quotation marks around the spoken words."],
+["w","In A Legendary Woman, what did she run?","a pirate fleet",["a school","a bakery","a football team"],"She was a famous pirate who later lived in a palace."],
+["w","Another word for “ferocious” is…","fierce",["gentle","tiny","sleepy"],"Synonyms: fierce, savage, wild."]];
+const P=[{n:"Paper A · Unit 2B Recipes",t:"20 minutes",p:"Banana Pancakes (serves 2)\n\nWhat You Will Need\n• 1 cup of flour\n• 1 teaspoon of baking powder\n• 1 cup of milk\n• 1 egg\n• 1 ripe banana\n\nWhat To Do\n1. Mash the banana in a bowl.\n2. Add the egg and milk and beat well.\n3. Stir in the flour and baking powder until smooth.\n4. Heat a greased pan on the stove.\n5. Pour in half a cup of batter.\n6. Flip the pancake when bubbles appear.",
+q:[["What type of text is this?","A recipe",["A poem","A legend","A diary"],"It has a list of ingredients and numbered instructions."],["Which step comes first?","Mash the banana",["Flip the pancake","Heat the pan","Pour in the batter"],"Look at step 1."],["Which ingredient is DRY?","flour",["milk","egg","banana"],"Flour has no liquid."],["“Greased” most likely means…","rubbed with butter or oil",["washed with soap","made very hot","cut into pieces"],"Grease stops the pancake sticking."],["Mum stirred the batter. ___ stirred it well.","She",["It","They","Himself"],"A pronoun replaces “Mum”."],["How do you know when to flip the pancake?","Bubbles appear",["The pan is cold","After ten minutes","You hear a bell"],"See step 6."],["The children made the pancakes by ___.","themselves",["itself","myself","yourself"],"They + themselves."]]},
+{n:"Paper B · Unit 3 Stories from the Past",t:"20 minutes",p:"Nadira and the Silver Boat\n\nLong ago, in a land far away, there lived a young sailor named Nadira. One stormy night, a huge wave swept her boat out to sea. “Help!” she shouted. For three days she drifted, hungry and tired. Then she saw a bright light in the distance. It was a lighthouse! Slowly and carefully, she rowed towards it. “You are the bravest sailor we have ever met,” the keeper said.",
+q:[["Which sentence is an exclamation?","It was a lighthouse!",["Where is the light?","She rowed to the shore."],"It shows strong feeling."],["How long did Nadira drift?","Three days",["One night","One week","One hour"],"“For three days she drifted”."],["“Long ago, in a land far away,” tells us…","time and place",["manner only","a person","a feeling"],"Long ago = time; in a land far away = place."],["“Slowly and carefully” tells us…","how she rowed",["where she rowed","when she rowed","who rowed"],"It describes the manner."],["What shows the keeper’s exact words?","quotation marks",["a full stop","a capital letter","a colon"],"Direct speech uses quotation marks."],["This text is prose because it…","is written in full sentences",["has short rhyming lines","has no characters","is a list"],"Poetry would use short lines and rhythm."],["The main theme is…","bravery and survival",["cooking","winning a race","going to school"],"Nadira survives through courage."]]}];
+const M=[["Kitchen words",[["beat","mix hard and fast"],["grease","rub butter or oil on a pan"],["batter","runny mix for pancakes or cake"],["utensil","a kitchen tool"],["ingredient","a food in a recipe"],["non-dairy","has no milk products"]]],["Story words",[["legend","story about an amazing person long ago"],["astronomer","studies the sky and stars"],["roam","travel far and for long"],["captured","forced to go with someone"],["ferocious","fierce"],["exaggerate","make something sound bigger"]]]];
+const SO=[["Wet, dry or tool?",["Wet","Dry","Tool"],[["milk",0],["oil",0],["eggs",0],["flour",1],["sugar",1],["baking powder",1],["whisk",2],["measuring cup",2],["spatula",2],["grater",2]]],
+["Prose or poetry?",["Prose","Poetry"],[["full sentences",0],["rhythm and rhyme",1],["short lines",1],["longer lines",0],["tells all the details",0],["uses special words and verses",1]]],
+["Sentence types",["Statement","Question","Command","Exclamation"],[["The thieves ran off.",0],["Have you recovered?",1],["Let them go!",2],["What a crazy plan!",3],["Stir the batter.",2],["Who is the chief?",1],["The sun was hot.",0],["Oh no, I have crashed!",3]]],
+["Time, place or how?",["Time","Place","How"],[["Early in the morning,",0],["Up high in the sky,",1],["Hungry and frightened,",2],["That night,",0],["In the desert,",1],["Slowly and carefully,",2]]]];
+const O=[["Make pancakes",["Melt the butter and mix the dry ingredients","Mix the milk, butter and eggs","Pour the milk mixture into the flour and stir","Heat the pan and add a little oil","Test the pan with water drops","Pour half a cup of batter in","Flip when the top has bubbles"]],["The Chief Who Wanted to Fly",["The chief wants to fly like a bird","Eagles lift him into the sky","He gets nervous and falls in the desert","Thieves capture him","Nawas and the horsemen rescue him","He goes home and his wife calls it crazy"]]];
+const L=[["2B · Recipes","<li>A recipe has a <b>title</b>, <b>ingredients</b> (What You Will Need, bullet list) and <b>instructions</b> (What To Do, numbered).</li><li><b>Wet</b>: milk, eggs, oil. <b>Dry</b>: flour, sugar, baking powder. <b>Utensils</b>: spoon, whisk, bowl, measuring cup.</li><li>Measurements: cup, teaspoon, tablespoon, litre, half, quarter.</li><li>Oven <b>setting</b> = temperature. icy = very cold · solid = hard · remove = take out.</li><li>Ice cream: mix while it freezes so ice crystals stay small, otherwise it is grainy.</li>"],
+["2B · Pronouns","<li>A pronoun stands in place of a noun: I, you, he, she, it, we, they.</li><li>Reflexive pronouns: myself, yourself, himself, herself, itself, ourselves, yourselves, themselves.</li><li>“The children made it <b>themselves</b>.” The doer and the receiver are the same.</li>"],
+["3A · Legends & sentences","<li>A <b>legend</b> is about an amazing person (often real) from long ago. A <b>fable</b> teaches a lesson.</li><li>Four sentence types: <b>statement</b> (.), <b>question</b> (?), <b>command</b> (. or !), <b>exclamation</b> (!).</li><li><b>Sentence openings</b> tell time, place or how. Put a comma after them: “Early in the morning, …”</li><li>Same letters, different sounds: head/seal, love/move/code. Rhymes: meal–peel, would–good, dove–love, low–go, how–now, bed–head.</li>"],
+["3B · Poems & dialogue","<li><b>Prose</b>: full sentences, longer lines. <b>Poetry</b>: short lines, rhythm, often rhyme (not always!). <b>Literature</b> = prose, drama, poetry.</li><li>Multi-clause sentences use connectives: <b>and</b> (similar ideas), <b>but</b> (different ideas).</li><li>Dialogue: “Quotation marks,” said for statements, asked for questions. Try other words: shouted, cried, wondered.</li>"]];
+let S={},G={},tab="learn";
+const mk=d=>({q:d[1],a:d[2],o:sh([d[2],...d[3]]),e:d[4]});
+const nvb=[["learn","📖","Learn"],["games","🎮","Games"],["quiz","✏️","Quizzes"],["papers","📝","Papers"]];
+function go(t){tab=t;$("#nv").innerHTML=nvb.map(b=>`<button class="${b[0]==t?"on":""}" data-a="go" data-t="${b[0]}"><span>${b[1]}</span>${b[2]}</button>`).join("");window.scrollTo(0,0);
+A.innerHTML=({learn:()=>"<h2>Quick revision</h2>"+L.map(x=>`<details><summary>${x[0]}</summary><ul>${x[1]}</ul></details>`).join(""),
+games:()=>"<h2>Games</h2><p class=mu>Tap to play. Everything marks itself.</p>"+[["Word match","mt0"],["Word match 2","mt1"],["Sort it! Wet, dry or tool","so0"],["Sort it! Prose or poetry","so1"],["Sort it! Sentence types","so2"],["Sort it! Time, place or how","so3"],["Put it in order: pancakes","od0"],["Put it in order: the legend","od1"],["⚡ Speed round (3 lives, 10 s)","sp"]].map(g=>`<button class=big data-a="g" data-g="${g[1]}">${g[0]}</button>`).join(""),
+quiz:()=>"<h2>Self-marking quizzes</h2><p class=mu>Instant feedback after every answer.</p>"+Object.keys(T).map(k=>`<button class=big data-a="qz" data-k="${k}">${T[k]}</button>`).join("")+`<button class="pr" data-a="qz" data-k="all">Mixed quiz (10 questions)</button>`,
+papers:()=>"<h2>Practice papers</h2><p class=mu>Written in the style of the unit assessments (not official Cambridge papers). Answer everything, then press Mark.</p>"+P.map((p,i)=>`<button class=big data-a="pp" data-i="${i}">${p.n}<br><span class=mu>${p.q.length} marks · ${p.t}</span></button>`).join("")})[t]()}
+function qz(k,sp){let l=D.filter(d=>k=="all"||d[0]==k);l=sh(l).slice(0,10).map(mk);S={l,i:0,s:0,w:[],sp,lv:3,k};ask()}
+function ask(){const x=S.l[S.i];S.d=0;A.innerHTML=`<div class=bar><i style="width:${S.i/S.l.length*100}%"></i></div><p class=mu>${S.sp?"❤️".repeat(S.lv)+" ⏱ <b id=tm>10</b> s · ":""}Question ${S.i+1} of ${S.l.length} · Score ${S.s}</p><h2>${x.q}</h2>`+x.o.map((o,i)=>`<button class=op data-a=pk data-i=${i}>${o}</button>`).join("")+"<div id=fb></div>";
+if(S.sp){let t=10;clearInterval(S.id);S.id=setInterval(()=>{t--;const e=$("#tm");if(e)e.textContent=t;if(t<=0)pk(-1)},1000)}}
+function pk(i){if(S.d)return;S.d=1;clearInterval(S.id);const x=S.l[S.i],ok=i>=0&&x.o[i]==x.a;
+document.querySelectorAll(".op").forEach((b,j)=>{b.disabled=1;if(x.o[j]==x.a)b.classList.add("ok");else if(j==i)b.classList.add("no")});
+if(ok)S.s++;else{S.w.push(x);S.lv--}
+$("#fb").innerHTML=`<div class="fb ${ok?"g":"b"}">${i<0?"⏰ Time’s up!":ok?"✅ Correct!":"❌ Not quite."} ${x.e}</div><button class=pr data-a=nx>${S.i+1<S.l.length&&S.lv>0?"Next →":"See results"}</button>`}
+function nx(){S.i++;if(S.i>=S.l.length||S.lv<=0)return res();ask()}
+function res(){const n=S.i>=S.l.length?S.l.length:S.i,p=Math.round(S.s/Math.max(n,1)*100);
+A.innerHTML=`<div class=c><h2>${p>=80?"🌟 Brilliant!":p>=50?"👍 Good effort!":"💪 Keep practising!"}</h2><p>You scored <b>${S.s}</b> out of <b>${n}</b> (${p}%).</p></div>`+(S.w.length?`<button class=pr data-a=rt>Retry my mistakes (${S.w.length})</button>`:"")+`<button class=big data-a=ag>Play again</button><button class=big data-a=go data-t="${S.sp?"games":"quiz"}">Back to menu</button>`}
+function paper(i){const p=P[i];G={p,i,done:0};A.innerHTML=`<h2>${p.n}</h2><div class="c ps">${p.p}</div>`+p.q.map((q,n)=>{const o=sh([q[1],...q[2]]);return`<div class=c><b>${n+1}. ${q[0]}</b>`+o.map(t=>`<label><input type=radio name=q${n} value="${t.replace(/"/g,"&quot;")}"> ${t}</label>`).join("")+`<div id=r${n}></div></div>`}).join("")+`<button class=pr data-a=mk>Mark my paper</button>`}
+function mkp(){if(G.done)return;G.done=1;let s=0;G.p.q.forEach((q,n)=>{const c=document.querySelector(`input[name=q${n}]:checked`),ok=c&&c.value==q[1];if(ok)s++;$("#r"+n).innerHTML=`<div class="fb ${ok?"g":"b"}">${ok?"✅ 1 mark":"❌ 0 marks. Answer: <b>"+q[1]+"</b>"}<br>${q[3]}</div>`});
+const t=G.p.q.length;A.insertAdjacentHTML("afterbegin",`<div class=c><h2>${s>=t*.8?"🌟":s>=t*.5?"👍":"💪"} ${s} / ${t} (${Math.round(s/t*100)}%)</h2></div>`);window.scrollTo(0,0)}
+function match(i){const s=M[i][1];G={s,sel:null,n:0,mv:0};const L=sh(s.map((x,k)=>[x[0],k])),R=sh(s.map((x,k)=>[x[1],k]));
+A.innerHTML=`<h2>${M[i][0]}</h2><p class=mu>Tap a word, then its meaning. <span id=mv>0</span> moves</p><div class=grid><div>${L.map(x=>`<button class=big style="margin:4px 0;width:100%" data-a=mt data-s=L data-k=${x[1]}>${x[0]}</button>`).join("")}</div><div>${R.map(x=>`<button class=big style="margin:4px 0;width:100%;font-weight:400" data-a=mt data-s=R data-k=${x[1]}>${x[0]}</button>`).join("")}</div></div><div id=fb></div>`}
+function mt(b){if(b.disabled)return;const s=b.dataset.s,k=b.dataset.k;if(G.sel&&G.sel.b!=b&&G.sel.s!=s){G.mv++;$("#mv").textContent=G.mv;const o=G.sel.b;G.sel=null;if(o.dataset.k==k){[o,b].forEach(e=>{e.classList.remove("on");e.classList.add("ok");e.disabled=1});if(++G.n==G.s.length)$("#fb").innerHTML=`<div class="fb g">🎉 All matched in ${G.mv} moves!</div><button class=pr data-a=go data-t=games>More games</button>`}else{[o,b].forEach(e=>{e.classList.add("no");setTimeout(()=>e.classList.remove("no"),400)});o.style.outline=""}}else{document.querySelectorAll("[data-a=mt]").forEach(e=>e.style.outline="");b.style.outline="3px solid var(--pr)";G.sel={b,s}}}
+function sort(i){const d=SO[i];G={d,l:sh(d[2]),i:0,s:0};srt()}
+function srt(){const d=G.d,x=G.l[G.i];if(!x){A.innerHTML=`<div class=c><h2>🎉 Finished!</h2><p>${G.s} out of ${G.l.length} correct first time.</p></div><button class=pr data-a=g data-g="so${SO.indexOf(d)}">Play again</button><button class=big data-a=go data-t=games>More games</button>`;return}
+G.f=0;A.innerHTML=`<div class=bar><i style="width:${G.i/G.l.length*100}%"></i></div><h2>${d[0]}</h2><div class="c" style="text-align:center;font-size:1.4rem;font-weight:700">${x[0]}</div><div class=grid>${d[1].map((c,k)=>`<button data-a=st data-k=${k}>${c}</button>`).join("")}</div>`}
+function st(b){const k=+b.dataset.k,x=G.l[G.i];if(k==x[1]){if(!G.f)G.s++;G.i++;srt()}else{G.f=1;b.classList.add("no");setTimeout(()=>b.classList.remove("no"),400)}}
+function ord(i){const d=O[i];G={d,i,n:0};A.innerHTML=`<h2>${d[0]}</h2><p class=mu>Tap the steps in the correct order.</p><div id=dn></div><div id=pl>${sh(d[1]).map(t=>`<button class=op data-a=od>${t}</button>`).join("")}</div><div id=fb></div>`}
+function od(b){const t=G.d[1][G.n];if(b.textContent==t){$("#dn").insertAdjacentHTML("beforeend",`<div class="fb g"><b>${++G.n}.</b> ${t}</div>`);b.remove();if(G.n==G.d[1].length)$("#fb").innerHTML=`<div class="fb g">🎉 Perfect order!</div><button class=pr data-a=go data-t=games>More games</button>`}else{b.classList.add("no");setTimeout(()=>b.classList.remove("no"),400)}}
+const H={go:d=>go(d.t),qz:d=>qz(d.k,0),pk:d=>pk(+d.i),nx,rt:()=>{S.l=sh(S.w);S.w=[];S.i=0;S.s=0;S.lv=3;ask()},ag:()=>qz(S.k,S.sp),pp:d=>paper(+d.i),mk:mkp,
+g:d=>{const g=d.g,n=+g.slice(2);g=="sp"?qz("all",1):g.startsWith("mt")?match(n):g.startsWith("so")?sort(n):ord(n)}};
+A.addEventListener("click",e=>{const b=e.target.closest("[data-a]");if(!b)return;const a=b.dataset.a;if(a=="mt")mt(b);else if(a=="st")st(b);else if(a=="od")od(b);else H[a]&&H[a](b.dataset)});
+$("#nv").addEventListener("click",e=>{const b=e.target.closest("[data-a]");if(b)go(b.dataset.t)});
+go("learn");
+</script></body></html>
